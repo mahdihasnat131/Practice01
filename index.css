@@ -1,0 +1,200 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+nav{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background-color: rgb(213, 213, 213);
+    padding: 10px;
+}
+
+.logo{
+    width: 80px;
+}
+
+.menu-container{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+    
+
+}
+li{
+    list-style: none;
+    font-weight: 400;
+    color: red;
+}
+.banner-image{
+    margin-top:0px;
+    width: 100%;
+    background-image: none;
+    opacity: 50%;
+}
+.services-container{
+    width: 30px;
+    display: flex;
+    cursor: pointer;
+    gap: 5px;
+}
+.image1{
+    height: 200px;
+    width: 200px;
+}
+.image2{
+    height: 200px;
+    width: 200px;
+}
+.image3{
+    margin-top:25px;
+    height: 150px;
+    width: 200px;
+}
+.image4{
+    height: 200px;
+    width: 200px;
+}
+.image5{
+    height: 175px;
+    width: 200px;
+}
+.Our_Service{
+    text-align: center;
+}
+.service1image{
+    width:150px;
+    height:150px;
+    margin-left: 20px;
+    
+}
+.service1-title{
+    
+    margin-left:20px;
+}
+.service1-desc{
+    margin-left:30px;
+    width: 200px;
+    font-size: x-small;
+}
+.service1-btn{
+    width: 100px;
+    margin-left:30px;
+    margin-top:40px;
+}
+.service1{
+    width:250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 7px;
+    margin-left: 150px;
+    
+    box-shadow: 4px 4px 8px rgb(26, 137, 85);
+}
+.service2image{
+    width:150px;
+    height:150px;
+    margin-left: 20px;
+    
+}
+.service2-title{
+    
+    margin-left:20px;
+}
+.service2-desc{
+    margin-left:30px;
+    width: 200px;
+    font-size: x-small;
+}
+.service2-btn{
+    width: 100px;
+    margin-left:30px;
+}
+.service2{
+    width:250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 7px;
+    margin-left: 0px;
+    
+    box-shadow: 4px 4px 8px rgb(26, 137, 85);
+}
+.service3image{
+    width:150px;
+    height:150px;
+    margin-left: 20px;
+    
+}
+.service3-title{
+    
+    margin-left:20px;
+    margin-top:20px;
+}
+.service3-desc{
+    margin-left:30px;
+    width: 200px;
+    font-size: x-small;
+}
+.service3-btn{
+    width: 100px;
+    margin-left:30px;
+}
+.service3{
+    width:250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 7px;
+    
+    margin-right:100px;
+    
+    box-shadow: 4px 4px 8px rgb(26, 137, 85);
+}
+
+.service-list{
+    display: flex;
+   
+}
+.Hire{
+    display: flex;
+}
+.Hire-btn{
+    width:200px;
+    height:40px;
+    margin-top: 100px;
+    cursor: pointer;
+   
+    
+}
+a{
+    text-decoration: none;
+}
+.Description-title{
+    
+    margin-top: 100px;
+    margin-left:20px;
+}
+.Desc{
+    font-size:  x-small;
+   margin-top: 300px;
+   margin-right:150px;
+}
+.footer1{
+    background-color: gray;
+   justify-content: space-evenly;
+    display: flex;
+}
+@media only screen and (min-width: 400px) and (max-width: 767px)
+{
+  li{
+    color:rgb(26, 137, 85)
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 767px)
+{
+    li{
+        color:rgb(135, 49, 197)
+    }
+}
